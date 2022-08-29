@@ -26,12 +26,16 @@
                 </div>
             </li>
             <li>
-                <p>22</p>
+                <p>222</p>
             </li>
             <li>
                 <p>333</p>
             </li>
         </ul>
+        <div class="footer">
+            页面底部 
+            高朝阳
+        </div>
     </div>
 
     <style>
@@ -39,13 +43,11 @@
             margin: 0;
             padding: 0;
         }
-
         .container {
             width: 100vw;
             height: 100vh;
             background-color: gray;
         }
-
         .container>ul {
             list-style-type: none;
             width: 100%;
@@ -56,13 +58,11 @@
             justify-content: space-around;
             align-items: center;
         }
-
         .container>ul>li {
             width: 33.3%;
             height: 30px;
             text-align: center;
         }
-
         .container>ul>li:hover {
             background-color: gray;
             border: 1px solid white;
@@ -73,18 +73,27 @@
             height: 200px;
             background-color: white;
             position: absolute;
-            
+            top: 30px;
+            left: 0;
+            overflow: hidden;
         }
         .con_ul_li_div>div{
             background-image: linear-gradient(rgb(226,193,133),orange);
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
-            font-size: 24px;
+            font-size: 22px;
             line-height: 200px;
-            position: absolute;
+        }
+        .footer{
+            
+            margin-top: 600px;
+            bottom: 20px;
+            text-align: center;
+            color: aliceblue;
         }
     </style>
+    <script src="./firstIndex.js"></script>
 </body>
 
 </html>
